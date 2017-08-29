@@ -1,0 +1,79 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FastEasyMapping (0.5.1)
+  - GIFProgressHUD (1.0.2)
+  - HCSStarRatingView (1.4.5)
+  - IQKeyboardManager (3.3.7)
+  - JTProgressHUD (1.0.5)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MarqueeLabel (3.1.1):
+    - MarqueeLabel/ObjC (= 3.1.1)
+  - MarqueeLabel/ObjC (3.1.1)
+  - Masonry (0.6.4)
+  - MBProgressHUD (1.0.0)
+  - Reachability (3.2)
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
+  - SSKeychain (1.4.1)
+  - TAlertView (0.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - FastEasyMapping (~> 0.5)
+  - GIFProgressHUD
+  - HCSStarRatingView (~> 1.4.5)
+  - IQKeyboardManager (~> 3.2)
+  - JTProgressHUD
+  - MagicalRecord (~> 2.2)
+  - MarqueeLabel
+  - Masonry (~> 0.5)
+  - MBProgressHUD (~> 1.0.0)
+  - Reachability
+  - RealReachability
+  - SSKeychain (~> 1.2)
+  - TAlertView
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FastEasyMapping: 03a3fbe3af1005e67974358a4ec2b4764f8aa3b4
+  GIFProgressHUD: a149cdf8a876645fbb4848a8ed291381ddc2c752
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JTProgressHUD: 7eb019487a92731c8716c15f19e94690cf35f644
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MarqueeLabel: 17c5148b6f7144498eff5e0d286bd2e7e866f972
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  TAlertView: 3787ac0ea7e832d80be129a9be960eb1fc5c73f1
+
+PODFILE CHECKSUM: c037bf59731a8c1ba16db23cc46bea0c57950fa9
+
+COCOAPODS: 1.2.1

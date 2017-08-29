@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TryCoreData' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TryCoreData
+    pod 'MagicalRecord', '~> 2.2'
+    pod 'Masonry', '~> 0.5'
+    pod 'IQKeyboardManager', '~> 3.2'
+    pod 'AFNetworking', '~> 2.5'
+    pod 'HCSStarRatingView', '~> 1.4.5'
+    pod 'FastEasyMapping', '~> 0.5'
+    pod 'SSKeychain', '~> 1.2'
+    pod 'Reachability' ''
+    pod 'TAlertView'
+    pod 'MBProgressHUD', '~> 1.0.0'
+    pod 'MarqueeLabel'
+    pod 'RealReachability'
+    pod 'JTProgressHUD’
+    pod 'GIFProgressHUD'
+end
