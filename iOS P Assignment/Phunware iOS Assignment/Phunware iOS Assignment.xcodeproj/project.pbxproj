@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30D36E1E1FF2E4F2F6E240B8 /* Pods_Phunware_iOS_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40571EE18B2637AB1B96C4FD /* Pods_Phunware_iOS_AssignmentUITests.framework */; };
+		4F6F7F8F989D0451EA3F742C /* Pods_Phunware_iOS_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCE6D79B23EAD617A703BD2 /* Pods_Phunware_iOS_Assignment.framework */; };
+		5D6F3D0F1F46B9F400E5BAF6 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F3D0E1F46B9F400E5BAF6 /* DetailTableViewCell.swift */; };
+		5DB323311F476DB300F31DEC /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB323301F476DB300F31DEC /* Defines.swift */; };
+		5DBB91DD1F461E790058615E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB91DB1F461E790058615E /* Main.storyboard */; };
+		5DBB91E21F461E790058615E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB91E11F461E790058615E /* Assets.xcassets */; };
+		5DBB91E51F461E790058615E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB91E31F461E790058615E /* LaunchScreen.storyboard */; };
+		5DBB91F01F461E790058615E /* Phunware_iOS_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB91EF1F461E790058615E /* Phunware_iOS_AssignmentUITests.swift */; };
+		5DBB92011F461F890058615E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB91FB1F461F890058615E /* AppDelegate.swift */; };
+		5DBB92051F4620B80058615E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB92041F4620B80058615E /* DetailViewController.swift */; };
+		5DBB92071F4621B00058615E /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB92061F4621B00058615E /* Feed.swift */; };
+		5DBB92091F4621C70058615E /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB92081F4621C70058615E /* DataRequest.swift */; };
+		5DBB920D1F46502A0058615E /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB920C1F46502A0058615E /* FeedCollectionViewCell.swift */; };
+		5DBB920F1F4650620058615E /* FeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB920E1F4650620058615E /* FeedCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DBB91EC1F461E790058615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBB91CC1F461E790058615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBB91D31F461E790058615E;
+			remoteInfo = "Phunware iOS Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40571EE18B2637AB1B96C4FD /* Pods_Phunware_iOS_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phunware_iOS_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6F3D0E1F46B9F400E5BAF6 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		5DB323301F476DB300F31DEC /* Defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		5DBB91D41F461E790058615E /* Phunware iOS Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phunware iOS Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBB91DC1F461E790058615E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DBB91E11F461E790058615E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DBB91E41F461E790058615E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DBB91E61F461E790058615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBB91EB1F461E790058615E /* Phunware iOS AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phunware iOS AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBB91EF1F461E790058615E /* Phunware_iOS_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phunware_iOS_AssignmentUITests.swift; sourceTree = "<group>"; };
+		5DBB91F11F461E790058615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBB91FB1F461F890058615E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DBB92041F4620B80058615E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5DBB92061F4621B00058615E /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		5DBB92081F4621C70058615E /* DataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		5DBB920C1F46502A0058615E /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		5DBB920E1F4650620058615E /* FeedCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewController.swift; sourceTree = "<group>"; };
+		6BCE6D79B23EAD617A703BD2 /* Pods_Phunware_iOS_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phunware_iOS_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7886D4A5A506CC4A145C430E /* Pods-Phunware iOS AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phunware iOS AssignmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phunware iOS AssignmentUITests/Pods-Phunware iOS AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		874158E71765BC6DCA86D11B /* Pods-Phunware iOS Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phunware iOS Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phunware iOS Assignment/Pods-Phunware iOS Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		A705292E3C7B42F386B02ABE /* Pods-Phunware iOS AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phunware iOS AssignmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phunware iOS AssignmentUITests/Pods-Phunware iOS AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1C96368E6E2CAE1BA55F23A /* Pods-Phunware iOS Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phunware iOS Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phunware iOS Assignment/Pods-Phunware iOS Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBB91D11F461E790058615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6F7F8F989D0451EA3F742C /* Pods_Phunware_iOS_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB91E81F461E790058615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D36E1E1FF2E4F2F6E240B8 /* Pods_Phunware_iOS_AssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090D1E49D0B3013FD48B4999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1C96368E6E2CAE1BA55F23A /* Pods-Phunware iOS Assignment.debug.xcconfig */,
+				874158E71765BC6DCA86D11B /* Pods-Phunware iOS Assignment.release.xcconfig */,
+				7886D4A5A506CC4A145C430E /* Pods-Phunware iOS AssignmentUITests.debug.xcconfig */,
+				A705292E3C7B42F386B02ABE /* Pods-Phunware iOS AssignmentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		19C23F7AADE015BCB8F25D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE6D79B23EAD617A703BD2 /* Pods_Phunware_iOS_Assignment.framework */,
+				40571EE18B2637AB1B96C4FD /* Pods_Phunware_iOS_AssignmentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DBB91CB1F461E790058615E = {
+			isa = PBXGroup;
+			children = (
+				5DBB91D61F461E790058615E /* Phunware iOS Assignment */,
+				5DBB91EE1F461E790058615E /* Phunware iOS AssignmentUITests */,
+				5DBB91D51F461E790058615E /* Products */,
+				090D1E49D0B3013FD48B4999 /* Pods */,
+				19C23F7AADE015BCB8F25D2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBB91D51F461E790058615E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB91D41F461E790058615E /* Phunware iOS Assignment.app */,
+				5DBB91EB1F461E790058615E /* Phunware iOS AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBB91D61F461E790058615E /* Phunware iOS Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB91FA1F461F890058615E /* App Delegate */,
+				5DBB91FC1F461F890058615E /* Models */,
+				5DBB91FD1F461F890058615E /* Requests */,
+				5DBB91FE1F461F890058615E /* Screens */,
+				5DBB91DB1F461E790058615E /* Main.storyboard */,
+				5DBB91E11F461E790058615E /* Assets.xcassets */,
+				5DBB91E31F461E790058615E /* LaunchScreen.storyboard */,
+				5DBB91E61F461E790058615E /* Info.plist */,
+				5DB323301F476DB300F31DEC /* Defines.swift */,
+			);
+			path = "Phunware iOS Assignment";
+			sourceTree = "<group>";
+		};
+		5DBB91EE1F461E790058615E /* Phunware iOS AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB91EF1F461E790058615E /* Phunware_iOS_AssignmentUITests.swift */,
+				5DBB91F11F461E790058615E /* Info.plist */,
+			);
+			path = "Phunware iOS AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		5DBB91FA1F461F890058615E /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB91FB1F461F890058615E /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		5DBB91FC1F461F890058615E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB92061F4621B00058615E /* Feed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DBB91FD1F461F890058615E /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB92081F4621C70058615E /* DataRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		5DBB91FE1F461F890058615E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB91FF1F461F890058615E /* Controllers */,
+				5DBB92001F461F890058615E /* Views */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5DBB91FF1F461F890058615E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB920E1F4650620058615E /* FeedCollectionViewController.swift */,
+				5DBB92041F4620B80058615E /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5DBB92001F461F890058615E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB920C1F46502A0058615E /* FeedCollectionViewCell.swift */,
+				5D6F3D0E1F46B9F400E5BAF6 /* DetailTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBB91D31F461E790058615E /* Phunware iOS Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBB91F41F461E790058615E /* Build configuration list for PBXNativeTarget "Phunware iOS Assignment" */;
+			buildPhases = (
+				DCB8A382157D66C40BC07432 /* [CP] Check Pods Manifest.lock */,
+				5DBB91D01F461E790058615E /* Sources */,
+				5DBB91D11F461E790058615E /* Frameworks */,
+				5DBB91D21F461E790058615E /* Resources */,
+				4F890AA39E9CE5E6F4B1DF22 /* [CP] Embed Pods Frameworks */,
+				97D61854698B66B5089A7725 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phunware iOS Assignment";
+			productName = "Phunware iOS Assignment";
+			productReference = 5DBB91D41F461E790058615E /* Phunware iOS Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DBB91EA1F461E790058615E /* Phunware iOS AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBB91F71F461E790058615E /* Build configuration list for PBXNativeTarget "Phunware iOS AssignmentUITests" */;
+			buildPhases = (
+				DE0F5ADF98F1C05C878BD94E /* [CP] Check Pods Manifest.lock */,
+				5DBB91E71F461E790058615E /* Sources */,
+				5DBB91E81F461E790058615E /* Frameworks */,
+				5DBB91E91F461E790058615E /* Resources */,
+				CE6737D2D4CCBFA3D40C731B /* [CP] Embed Pods Frameworks */,
+				8299B6FF420FEC74364F7F28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBB91ED1F461E790058615E /* PBXTargetDependency */,
+			);
+			name = "Phunware iOS AssignmentUITests";
+			productName = "Phunware iOS AssignmentUITests";
+			productReference = 5DBB91EB1F461E790058615E /* Phunware iOS AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBB91CC1F461E790058615E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "pavan krishna";
+				TargetAttributes = {
+					5DBB91D31F461E790058615E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RD3D64KZ4A;
+						ProvisioningStyle = Automatic;
+					};
+					5DBB91EA1F461E790058615E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RD3D64KZ4A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DBB91D31F461E790058615E;
+					};
+				};
+			};
+			buildConfigurationList = 5DBB91CF1F461E790058615E /* Build configuration list for PBXProject "Phunware iOS Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBB91CB1F461E790058615E;
+			productRefGroup = 5DBB91D51F461E790058615E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBB91D31F461E790058615E /* Phunware iOS Assignment */,
+				5DBB91EA1F461E790058615E /* Phunware iOS AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBB91D21F461E790058615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBB91E51F461E790058615E /* LaunchScreen.storyboard in Resources */,
+				5DBB91E21F461E790058615E /* Assets.xcassets in Resources */,
+				5DBB91DD1F461E790058615E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB91E91F461E790058615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F890AA39E9CE5E6F4B1DF22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phunware iOS Assignment/Pods-Phunware iOS Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8299B6FF420FEC74364F7F28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phunware iOS AssignmentUITests/Pods-Phunware iOS AssignmentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D61854698B66B5089A7725 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phunware iOS Assignment/Pods-Phunware iOS Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6737D2D4CCBFA3D40C731B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phunware iOS AssignmentUITests/Pods-Phunware iOS AssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB8A382157D66C40BC07432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0F5ADF98F1C05C878BD94E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBB91D01F461E790058615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBB92091F4621C70058615E /* DataRequest.swift in Sources */,
+				5DBB920F1F4650620058615E /* FeedCollectionViewController.swift in Sources */,
+				5D6F3D0F1F46B9F400E5BAF6 /* DetailTableViewCell.swift in Sources */,
+				5DBB92011F461F890058615E /* AppDelegate.swift in Sources */,
+				5DBB920D1F46502A0058615E /* FeedCollectionViewCell.swift in Sources */,
+				5DBB92071F4621B00058615E /* Feed.swift in Sources */,
+				5DB323311F476DB300F31DEC /* Defines.swift in Sources */,
+				5DBB92051F4620B80058615E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB91E71F461E790058615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBB91F01F461E790058615E /* Phunware_iOS_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DBB91ED1F461E790058615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBB91D31F461E790058615E /* Phunware iOS Assignment */;
+			targetProxy = 5DBB91EC1F461E790058615E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DBB91DB1F461E790058615E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBB91DC1F461E790058615E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DBB91E31F461E790058615E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBB91E41F461E790058615E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DBB91F21F461E790058615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DBB91F31F461E790058615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DBB91F51F461E790058615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C96368E6E2CAE1BA55F23A /* Pods-Phunware iOS Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RD3D64KZ4A;
+				INFOPLIST_FILE = "Phunware iOS Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PK.Venkata-iOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DBB91F61F461E790058615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874158E71765BC6DCA86D11B /* Pods-Phunware iOS Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RD3D64KZ4A;
+				INFOPLIST_FILE = "Phunware iOS Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PK.Venkata-iOS-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DBB91F81F461E790058615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7886D4A5A506CC4A145C430E /* Pods-Phunware iOS AssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RD3D64KZ4A;
+				INFOPLIST_FILE = "Phunware iOS AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PK.Phunware-iOS-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Phunware iOS Assignment";
+			};
+			name = Debug;
+		};
+		5DBB91F91F461E790058615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A705292E3C7B42F386B02ABE /* Pods-Phunware iOS AssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RD3D64KZ4A;
+				INFOPLIST_FILE = "Phunware iOS AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PK.Phunware-iOS-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Phunware iOS Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBB91CF1F461E790058615E /* Build configuration list for PBXProject "Phunware iOS Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBB91F21F461E790058615E /* Debug */,
+				5DBB91F31F461E790058615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBB91F41F461E790058615E /* Build configuration list for PBXNativeTarget "Phunware iOS Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBB91F51F461E790058615E /* Debug */,
+				5DBB91F61F461E790058615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBB91F71F461E790058615E /* Build configuration list for PBXNativeTarget "Phunware iOS AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBB91F81F461E790058615E /* Debug */,
+				5DBB91F91F461E790058615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBB91CC1F461E790058615E /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.5.0)
+  - StretchyHeaderView (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - StretchyHeaderView
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  StretchyHeaderView: 8a24ad7c424e3797ccecfc892b1570c484b9087e
+
+PODFILE CHECKSUM: 69b6ce68a96d01987586feab42773d95cbabcc6c
+
+COCOAPODS: 1.2.1

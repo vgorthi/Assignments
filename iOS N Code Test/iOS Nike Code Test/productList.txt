@@ -1,0 +1,238 @@
+{
+	"results" : [ {
+									"products" : [ {
+																		"name1" : "Nike Derek Fisher Jersey Shoes",
+																		"name2" : "Nike derek fisher jersey shoes",
+																		"images" : [ {
+																										"path" : "http://www.lakersuniverse.com/store/2010/shoes_nike_hyperize_bb.jpg",
+																										"alt" : "Nike derek fisher jersey shoes",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "http://www.lakersuniverse.com/store/2010/shoes_nike_hyperize_bb.jpg",
+																										"alt" : "Nike derek fisher jersey shoes",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "200.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "734"
+																},
+{
+																		"name1" : "Nike Air Max 2014 Women's Running Shoe",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "https://s-media-cache-ak0.pinimg.com/736x/23/9d/3d/239d3d2cbe78c124a38df8a69691f97b.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "https://s-media-cache-ak0.pinimg.com/736x/23/9d/3d/239d3d2cbe78c124a38df8a69691f97b.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "110.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "675"
+																},
+{
+																		"name1" : "LeBron 11 Men's Basketball Shoe",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "https://s-media-cache-ak0.pinimg.com/736x/ba/7a/33/ba7a33bf887f59f7c7087f0caaa78a7c--lebron--nike-lebron.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "https://s-media-cache-ak0.pinimg.com/736x/ba/7a/33/ba7a33bf887f59f7c7087f0caaa78a7c--lebron--nike-lebron.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "250.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "347"
+																},
+{
+																		"name1" : "Nike Free Run 2 - Gold",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "https://s-media-cache-ak0.pinimg.com/736x/1a/40/85/1a4085b346d7f2697bc272596052deca--buy-nike-shoes-online-running-shoes-nike.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "https://s-media-cache-ak0.pinimg.com/736x/1a/40/85/1a4085b346d7f2697bc272596052deca--buy-nike-shoes-online-running-shoes-nike.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "1000.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "264"
+																},
+{
+																		"name1" : "Nike Air Max Shoes",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "https://i.ebayimg.com/thumbs/images/m/mXXA7vVxjMfPWHGuAxFafBQ/s-l225.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "https://i.ebayimg.com/thumbs/images/m/mXXA7vVxjMfPWHGuAxFafBQ/s-l225.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "140.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "157"
+																},
+{
+																		"name1" : "Nike Running Shoes",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "http://dimg.dillards.com/is/image/DillardsZoom/nav/nike-womens-free-run-flyknit-running-shoes/04621243_zi_black_bright_mango_hyper_turquoise_white.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "http://dimg.dillards.com/is/image/DillardsZoom/nav/nike-womens-free-run-flyknit-running-shoes/04621243_zi_black_bright_mango_hyper_turquoise_white.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "10.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "367"
+																},
+{
+																		"name1" : "Nike Air Max+ 2013",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "https://i.pinimg.com/736x/02/26/f8/0226f853a7ffb630e5280abde49441a9--nike-womens-shoes-nike-free-shoes.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "https://i.pinimg.com/736x/02/26/f8/0226f853a7ffb630e5280abde49441a9--nike-womens-shoes-nike-free-shoes.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "10.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "346"
+																},
+{
+																		"name1" : "Nike Air Force 1",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "https://images.nike.com/is/image/DotCom/PDP_HERO_M/864014_001_A_PREM/air-force-1-ultraforce-mid-mens-shoe.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "https://images.nike.com/is/image/DotCom/PDP_HERO_M/864014_001_A_PREM/air-force-1-ultraforce-mid-mens-shoe.jpg",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "10.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "336"
+																},
+{
+																		"name1" : "Nike Printed",
+																		"name2" : "Hairbands (4 Pack)",
+																		"images" : [ {
+																										"path" : "http://images.nike.com/is/image/DotCom/NIKE_API/Nike-Printed-Hairbands-4-Pack-AC3596_939.png",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "primary",
+																										"sortOrder" : 1
+																									}, {
+																										"path" : "http://images.nike.com/is/image/DotCom/NIKE_API_THN/Nike-Printed-Hairbands-4-Pack-AC3596_939.png",
+																										"alt" : "Nike Printed Hairbands (4 Pack)",
+																										"type" : "thumbnail",
+																										"sortOrder" : 1
+																								} ],
+																		 "prices" : {
+																								 "list" : "10.00",
+																								 "currentRetail" : "4.99",
+																								 "sale" : "4.99",
+																								 "currencyCode" : "GBP",
+																								 "formattedList" : "£10",
+																								 "formattedCurrentRetail" : "£4.99",
+																								 "formattedSale" : "£4.99"
+																								 },
+																		 "style" : "AC3596",
+																		 "colorCode" : "939"
+																} ]
+						 } ]
+}
