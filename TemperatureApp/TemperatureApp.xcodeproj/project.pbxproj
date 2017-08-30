@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB330191E5DE96A00A3AC4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB330181E5DE96A00A3AC4B /* main.m */; };
+		5DB3301C1E5DE96A00A3AC4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3301B1E5DE96A00A3AC4B /* AppDelegate.m */; };
+		5DB3301F1E5DE96A00A3AC4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3301E1E5DE96A00A3AC4B /* ViewController.m */; };
+		5DB330221E5DE96A00A3AC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB330201E5DE96A00A3AC4B /* Main.storyboard */; };
+		5DB330241E5DE96A00A3AC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB330231E5DE96A00A3AC4B /* Assets.xcassets */; };
+		5DB330271E5DE96A00A3AC4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB330251E5DE96A00A3AC4B /* LaunchScreen.storyboard */; };
+		9015B850A1C63F5D2BA50D0F /* libPods-TemperatureApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB69DFB022FB436753AD06 /* libPods-TemperatureApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		227A5AFB94D1256D4CB15B9F /* Pods-TemperatureApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemperatureApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemperatureApp/Pods-TemperatureApp.release.xcconfig"; sourceTree = "<group>"; };
+		2EFB69DFB022FB436753AD06 /* libPods-TemperatureApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemperatureApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB330141E5DE96A00A3AC4B /* TemperatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB330181E5DE96A00A3AC4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DB3301A1E5DE96A00A3AC4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DB3301B1E5DE96A00A3AC4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DB3301D1E5DE96A00A3AC4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DB3301E1E5DE96A00A3AC4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DB330211E5DE96A00A3AC4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DB330231E5DE96A00A3AC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DB330261E5DE96A00A3AC4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DB330281E5DE96A00A3AC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EF380FE8C8643D24DA1324 /* Pods-TemperatureApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemperatureApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemperatureApp/Pods-TemperatureApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DB330111E5DE96A00A3AC4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9015B850A1C63F5D2BA50D0F /* libPods-TemperatureApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB3300B1E5DE96A00A3AC4B = {
+			isa = PBXGroup;
+			children = (
+				5DB330161E5DE96A00A3AC4B /* TemperatureApp */,
+				5DB330151E5DE96A00A3AC4B /* Products */,
+				93E81C6341751D01BAD24139 /* Pods */,
+				E1F11536C446E7224FAA044F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DB330151E5DE96A00A3AC4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB330141E5DE96A00A3AC4B /* TemperatureApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB330161E5DE96A00A3AC4B /* TemperatureApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DB3301A1E5DE96A00A3AC4B /* AppDelegate.h */,
+				5DB3301B1E5DE96A00A3AC4B /* AppDelegate.m */,
+				5DB3301D1E5DE96A00A3AC4B /* ViewController.h */,
+				5DB3301E1E5DE96A00A3AC4B /* ViewController.m */,
+				5DB330201E5DE96A00A3AC4B /* Main.storyboard */,
+				5DB330231E5DE96A00A3AC4B /* Assets.xcassets */,
+				5DB330251E5DE96A00A3AC4B /* LaunchScreen.storyboard */,
+				5DB330281E5DE96A00A3AC4B /* Info.plist */,
+				5DB330171E5DE96A00A3AC4B /* Supporting Files */,
+			);
+			path = TemperatureApp;
+			sourceTree = "<group>";
+		};
+		5DB330171E5DE96A00A3AC4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DB330181E5DE96A00A3AC4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93E81C6341751D01BAD24139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0EF380FE8C8643D24DA1324 /* Pods-TemperatureApp.debug.xcconfig */,
+				227A5AFB94D1256D4CB15B9F /* Pods-TemperatureApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1F11536C446E7224FAA044F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB69DFB022FB436753AD06 /* libPods-TemperatureApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DB330131E5DE96A00A3AC4B /* TemperatureApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB3302B1E5DE96A00A3AC4B /* Build configuration list for PBXNativeTarget "TemperatureApp" */;
+			buildPhases = (
+				7F525E3830BCCB016765749B /* [CP] Check Pods Manifest.lock */,
+				5DB330101E5DE96A00A3AC4B /* Sources */,
+				5DB330111E5DE96A00A3AC4B /* Frameworks */,
+				5DB330121E5DE96A00A3AC4B /* Resources */,
+				6994EB8D3CC24EBAD0C873F2 /* [CP] Embed Pods Frameworks */,
+				9A984696C66A9E224E695C8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureApp;
+			productName = TemperatureApp;
+			productReference = 5DB330141E5DE96A00A3AC4B /* TemperatureApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DB3300C1E5DE96A00A3AC4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KSU;
+				TargetAttributes = {
+					5DB330131E5DE96A00A3AC4B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RD3D64KZ4A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5DB3300F1E5DE96A00A3AC4B /* Build configuration list for PBXProject "TemperatureApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DB3300B1E5DE96A00A3AC4B;
+			productRefGroup = 5DB330151E5DE96A00A3AC4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB330131E5DE96A00A3AC4B /* TemperatureApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DB330121E5DE96A00A3AC4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB330271E5DE96A00A3AC4B /* LaunchScreen.storyboard in Resources */,
+				5DB330241E5DE96A00A3AC4B /* Assets.xcassets in Resources */,
+				5DB330221E5DE96A00A3AC4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6994EB8D3CC24EBAD0C873F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TemperatureApp/Pods-TemperatureApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F525E3830BCCB016765749B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A984696C66A9E224E695C8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TemperatureApp/Pods-TemperatureApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB330101E5DE96A00A3AC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB3301F1E5DE96A00A3AC4B /* ViewController.m in Sources */,
+				5DB3301C1E5DE96A00A3AC4B /* AppDelegate.m in Sources */,
+				5DB330191E5DE96A00A3AC4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DB330201E5DE96A00A3AC4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB330211E5DE96A00A3AC4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB330251E5DE96A00A3AC4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB330261E5DE96A00A3AC4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DB330291E5DE96A00A3AC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DB3302A1E5DE96A00A3AC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DB3302C1E5DE96A00A3AC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0EF380FE8C8643D24DA1324 /* Pods-TemperatureApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RD3D64KZ4A;
+				INFOPLIST_FILE = TemperatureApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.TemperatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DB3302D1E5DE96A00A3AC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227A5AFB94D1256D4CB15B9F /* Pods-TemperatureApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RD3D64KZ4A;
+				INFOPLIST_FILE = TemperatureApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KSU.TemperatureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DB3300F1E5DE96A00A3AC4B /* Build configuration list for PBXProject "TemperatureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB330291E5DE96A00A3AC4B /* Debug */,
+				5DB3302A1E5DE96A00A3AC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB3302B1E5DE96A00A3AC4B /* Build configuration list for PBXNativeTarget "TemperatureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB3302C1E5DE96A00A3AC4B /* Debug */,
+				5DB3302D1E5DE96A00A3AC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DB3300C1E5DE96A00A3AC4B /* Project object */;
+}
